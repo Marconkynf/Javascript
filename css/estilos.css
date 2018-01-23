@@ -1,0 +1,522 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+
+
+
+body{
+    background-color: #F2F2F2;
+    margin:0;
+    padding: 0;
+    
+}
+
+h3{
+    font-size: 175%;
+    line-height: 155%;
+    font-weight: 500;
+    color: #524C56;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+  }
+
+p{
+    color:#524C56;
+    font-size: 160%;
+    line-height: 155%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+  }
+
+a{
+    color: #524C56;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover{
+    color:#C3D7DF;
+  }
+
+
+.texto-logo:hover{
+    color:#000;
+}
+
+
+/* edicion para el contenedor del logotipo y los menu */
+.Contenedor-cabecera{
+    margin:0px auto;
+    width: 90%;
+    padding: 0;
+    
+}
+/* Barra que sale debajo del logotipo y menus */
+#edition{
+    background-color: #D0D0D0;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+#menu-icon i{  /* icono para menus en web responsive, se oculta*/
+    margin: 5px;
+}
+/* Edicion para el menu de responsive */
+#menu-icon{
+    font-size: 50px;
+    display:none;
+}
+#menu-icon:hover{
+    color:#000;
+}
+.contenedor-menu-oculto{
+    display:none;
+}
+  .contenedor-menu-oculto ul,li{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    /*display: inline-block;*/
+    float: left;
+}
+
+.contenedor-menu-oculto li a{
+    background-color: #D0D0D0;
+    color:#524C56;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em 0px;
+    margin: 0 auto;
+    display: block;
+    margin: 0;
+    width: 100%;
+    
+}
+.contenedor-menu-oculto li a:hover{
+    background-color: #000;
+    color:#FFF;
+}
+
+/* ------------------------------- */
+header #logotipo img{
+    width: 50px;
+    margin: 0px;
+    padding: 0;
+    float: left;
+    
+}
+
+#Contenedor-logo a{
+    float: left;
+    height: 30px;
+    margin: 0px 10px;
+    padding: 0;
+    
+}
+#Contenedor-logo .texto-logo{
+    padding: 15px 0;
+    margin: 0;
+    
+}
+/* Termina edicion del logotipo e inicia edicion de los menus */
+.contenedor-menu{
+    float: right;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 0 0;
+}
+.contenedor-menu ul,li{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    float: left;
+}
+
+.contenedor-menu li a{
+    background-color: #D0D0D0;
+    color:#524C56;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em 15px;
+    margin: 0 auto;
+    display: block;
+    width: 80px;
+    
+}
+.contenedor-menu li a:hover{
+    background-color: #000;
+    color:#FFF;
+}
+.contenedor-menu > li{
+    float: left;
+    margin:0;
+}
+.contenedor-menu li ul{
+    display: none;
+    position: absolute;
+    width: 80px;
+    
+}
+.contenedor-menu li:hover > ul{
+    display: block;
+}
+
+/* Termina edicion de menu y comienza edicion del slider */
+
+.slider{
+    clear: both;
+    padding: 0;
+    margin: 0;
+
+}
+.slider h1, .slider h2{
+    text-align: center;
+    color:#FFF;
+    font-size: 3.5vh;
+    margin-top: 2vh;
+}
+
+/*.slider h1{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    left: 50%;
+    top:20%;
+}
+
+.slider h2{
+    position: absolute;
+    margin:0 auto;
+    padding: 0;
+    left:60%;
+    top:30%;
+}*/
+#tituloSlider{
+    width:30%;
+    position: absolute;
+    margin:0;
+    padding: 0;
+    height: 10%;
+    top: 20%;
+    left:50%;
+}
+
+#cabecera-img img{
+    width: 100%;
+    margin:-10px 0 0 0;
+    padding: 0;
+    
+}
+
+
+/* Termina edicion del slider */
+/*seccion de contenido*/
+.contenido1{ /*id del section*/
+    float: left;
+    width: 31%;
+    margin: 0 1%;
+    padding: 0;
+    text-align: center;
+
+}
+.contenido1 img{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10%;
+
+}
+
+
+
+.contenedor-contenido1{
+    margin: 0 auto;
+    
+}
+
+
+.contenedor-contenido{
+    width: 90%;
+    padding: 0;
+    margin: 0 auto;
+}
+.contenedor-contenido h3{
+    text-align: center;
+}
+
+/*termina seccion de contenido y comienza el contenido de footer*/
+
+footer{
+    
+    width: 100%;
+    overflow: auto;
+    background-color: #2C3E50;
+}
+.icon-text{
+    width: 100%;
+    margin: 0 auto;
+}
+.icon-text-icon{
+    float: left;
+    width: 20%;
+    padding: 4%;
+}
+.icon-text-text{
+    float: left;
+    width: 60%;
+    padding: 7% 4% 2% 0;
+} 
+.footer-nav{
+    text-align: left;
+}
+.footer-nav a{
+    font-size: 160%;
+    color: #C3D7DF;
+    font-weight: 300;
+  }
+  
+  .footer-nav a:hover{
+    color: #F5F5F5;
+  }
+
+  .footer-nav li a{
+    text-decoration: none;
+    padding: 0 15px; 
+    display: block;
+  }
+  .footer-nav li{ /* con esto puse el menu del footer uno debajo de otro*/
+      width: 70%;
+  }
+
+.footer-nav a:before{
+    content: "> ";
+}
+
+.social a{
+    font-size: 160%;
+    color: #C3D7DF;
+    font-weight: 300;
+}
+.social a:hover{
+    color: #F5F5F5;
+}
+
+
+.social{
+    text-align: center;
+}
+
+.social li{
+    float: left;
+    padding: 0 9%;
+    
+}
+
+.social i{
+    font-size: 250%;
+    margin: 0;
+    padding: 0%;
+}
+
+.second-footer{
+    border-top: 1px solid #AADCD2;
+    text-align: center;
+    margin: 0;
+}
+
+.second-footer p, .second-footer a{
+    text-align: center;
+    color: #FFF;
+    font-size: 140%;
+    line-height: 0;
+    margin: 0;
+}
+
+
+
+
+/*terminan los estilos del footer*/
+
+
+/*Estilos del reloj*/
+
+.relojCaja{
+    position: absolute;
+    width: 80%;
+    margin:0;
+    padding: 0;
+     
+}
+
+.widget{
+    width: 40%;
+    margin:-10px 0 0 0;
+    padding: 0;
+    top: 0;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+    color: #FFF;
+    font-size: 26px;
+    margin:0;
+    padding: 0;
+}
+.fecha{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    background-color: rgba(0,0,0,.5);
+    padding: 10px 0px;
+    width: 100%;
+}
+.reloj{
+    font-family: Arial;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+}
+
+
+
+/*Terminan los estilos del reloj y comienzan los estilos para
+configurar la web para dispositivos móviles*/
+
+@media (max-width:960px){
+    p{
+        font-size: 120%;
+    }
+    h3{
+        font-size: 150%;
+    }
+    
+    .Contenedor-cabecera{
+        margin:0px auto;
+        width: 95%;
+        padding: 0;
+        
+        
+    }
+    .contenedor-menu-oculto{
+        display: block;
+    }
+    #menu-icon{
+        display: block;
+        margin:0;
+        padding:0;
+        float: right;
+        overflow: hidden;
+
+    }
+ 
+    
+    .contenedor-menu{
+        display: none;
+    }
+
+
+    .contenedor-menu-oculto:hover ul{
+        display: block;
+        margin:0;
+        padding: 0;
+        
+    }
+    .contenedor-menu-oculto ul, .contenedor-menu-oculto:active ul{
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 10px;
+        background: #F5F5F5;
+        border: 1px solid #A5BDCD;
+        right: 2.5%;
+        top:50px;
+        width: 30%;
+        opacity: .95;
+      }
+      .contenedor-menu-oculto li{
+        text-align: center;
+        width: 100%;
+      }
+   
+
+
+    .contenido1{
+        float: left;
+        width: 100%;
+    }
+    .contenido1 img{
+        width: 20%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 5%;
+    
+    }
+    
+    .contenedor-contenido{
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .contenedor-contenido h3{
+        text-align: center;
+    }
+    .icon-text-icon{
+        width: 100%;
+        padding: 0 0 2% 0;
+    
+      }
+      .icon-text-text{
+        width: 100%;
+        padding: 2% 0 1% 0;
+        font-size: 80%;
+      }
+      .second-footer{
+          padding: 1%;
+      }
+
+      /*
+      .slider h1{
+        position: absolute;
+        margin: 0 auto;
+        padding: 0;
+        left: 35%;
+        top:10%;
+    }
+    
+    .slider h2{
+        position: absolute;
+        margin:0 auto;
+        padding: 0;
+        left:49%;
+        top:20%;
+    }*/
+    .slider h1, .slider h2{
+        text-align: center;
+        color:#FFF;
+        font-size: 2.5vh;
+        margin-top: 2vh;
+    }
+
+    #tituloSlider{
+        width:50%;
+        position: absolute;
+        margin:0;
+        padding: 0;
+        height: 10%;
+        top: 10%;
+        left:40%;
+    }
+
+}

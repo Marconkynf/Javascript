@@ -1,0 +1,19 @@
+.contenedor-juego{
+    background-color: rgb(93, 185, 228);
+    color: #FFF;
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-direction: column;
+    height: 100vh;
+}
+.contenedor-juego p{
+    color: #FFF;
+}
+#tesorocaja{
+    position: absolute;
+    margin: 0 auto;
+}

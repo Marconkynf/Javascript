@@ -1,0 +1,54 @@
+.contenedor-curriculum1 h1{
+    text-align: left;
+    
+}
+.contenedor-curriculum1 h3{
+    color:#000;
+    font-size: 100%;
+    text-align: left;
+}
+.contenedor-curriculum1 p{
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 100%;
+    text-align: left;
+    text-indent: 0%;
+}
+.contenedor-curriculum{
+    clear: both;
+    width: 90%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+}
+.contenedor-curriculum1{
+    clear: both;
+}
+td, th{
+    margin:0;
+    padding: 5px;
+    border: 1px solid #000;
+    width: 50%;
+    
+}
+th{
+    background-color: #00F;
+    color: #FFF;
+}
+#tablitas li{
+    list-style-type: circle;
+    width: 80%;
+    text-indent: 3%;
+}
+#tablitas li:before{
+    content: "• ";
+}
+
+table{
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+.juntos{
+    margin:0;
+}
